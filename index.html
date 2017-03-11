@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/javascript" href="index.js">
+	<title>Shauna's Golden Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+</head>
+<body>
+
+
+<marquee direction="down" width="450" height="360" behavior="alternate">
+ 
+  <div id="tv" style="position:relative;">
+ 
+ <img src="tv.jpg" width="450" height="360">                                                                                        
+    </div>                                       
+
+	 <div id="jif">                                                                                         
+   <img src="r.gif" width="350" height="297"/>    
+                      </div></marquee>
+
+<div id=vita>
+
+<img src="vita.png">
+
+	<form name="calculator">
+
+	<div id="table">
+<table style="margin-left: 2%;" align="center">
+	<tr>
+		<td colspan="4"><input type="text" name="input" size="44"></td>
+	</tr>
+	<tr>
+		
+	<td><input id="one" type="button" value="." onclick="calculator.input.value += '.' "></td>
+		<td><input id="two" type="button" value="=" onclick="calculator.input.value = eval(calculator.input.value)"></td>
+		<td><input id="three" type="button" value="/" onclick="calculator.input.value += '/' "></td>
+			<td><input id="four" type="button" value="0" onclick="calculator.input.value += '0' "></td>
+	</tr>
+	<tr>
+		<td><input id="five" type="button" value="7" onclick="calculator.input.value += '7' "></td>
+		<td><input id="six" type="button" value="8" onclick="calculator.input.value += '8' "></td>
+		<td><input id="seven" type="button" value="9" onclick="calculator.input.value += '9' "></td>
+		<td><input id="eight" type="button" value="*" onclick="calculator.input.value += '*' "></td>
+	</tr>
+	<tr>
+		<td><input id="nine" type="button" value="4" onclick="calculator.input.value += '4' "></td>
+		<td><input id="ten" type="button" value="5" onclick="calculator.input.value += '5' "></td>
+		<td><input id="eleven" type="button" value="6" onclick="calculator.input.value += '6' "></td>
+		<td><input id="twelve" type="button" value="-" onclick="calculator.input.value += '-' "></td>
+	</tr>
+	<tr>
+		<td><input id="thirteen" type="button"  value="1" onclick="calculator.input.value += '1' "></td>
+		<td><input id="fourteen" type="button"  value="2" onclick="calculator.input.value += '2' "></td>
+		<td><input id="fifteen" type="button"  value="3" onclick="calculator.input.value += '3' "></td>
+		<td><input id="sixteen" type="button"  value="+" onclick="calculator.input.value += '+' "></td>
+
+		<td><input id="seventeen" type="button"  value="Clear" onclick="calculator.input.value = '' "></td>
+		<td><input id="eighteen" type="button" value="Average" onclick="calculator.input.value =+ 'Average()'"/></td>
+	</tr>
+</table>
+</div>
+</form>
+</div>
+
+<footer id="end"> 
+<marquee> &copy 2017 _ Boss _ Shauna </marquee>
+<embed style="opacity: 0" src="Hanaji.mp3" autostart="true">
+</footer>
+
+</body>
+</html>

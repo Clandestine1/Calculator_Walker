@@ -1,0 +1,258 @@
+body{
+	width:100%;
+	height: 100%;
+	background-image: url("rise.jpg");
+	position: static;
+	background-position: center;
+	background-size: cover;
+	background-color: gold;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translate3d(10px, 10px, 10px);
+        animation-timing-function: ease-in;
+        transform: rotate(-1deg);
+    }
+    50% {
+        transform: translate3d(20px, 20px, 0px);
+        animation-timing-function: ease-out;
+        transform: rotate(-4deg); 
+    }
+    100% {
+        transform: translate3d(10px, 10px, 10px);
+        animation-timing-function: ease-in-out;
+        transform: rotate(-1deg);
+    }
+}
+
+#end
+{
+top: 88%;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	font-size: 64px;
+	color: #D810A1;
+	font-family: 'Monoton', cursive;
+}
+
+
+#tv{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+padding: 0;
+z-index: -1;
+opacity: 0.5;
+}
+	
+#jif {
+height: 100%;
+width: 100%;
+bottom: -12%;
+left: 3%;
+position: fixed;
+margin: 0;
+padding: 0;
+opacity: 0.7;
+}
+
+#vita {
+	width:540px; 
+    height: auto;
+	width: 100%;
+	top: 40%;
+	left: 34%;
+	position: fixed;
+	transform: rotate(-10deg);
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+  animation-name: move;
+    animation-duration: 2s;
+     -webkit-animation-duration: 2s;
+      -moz-animation-duration: 2s;
+       -o-animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease;
+}
+
+#table {
+	bottom: 14%;
+left: 10%;
+position: absolute;
+margin: 0;
+padding: 0;
+   border: 2px solid black;
+   background-image: url("baka.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 33%;
+   height: 80%;
+   color: #D810A1;
+}
+
+#one:hover {
+background-image:url("one.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#two:hover {
+background-image:url("two.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#three:hover {
+background-image:url("three.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+
+#four:hover{
+background-image:url("all.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+
+#five:hover{
+background-image:url("all2.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#six:hover{
+background-image:url("all3.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#seven:hover{
+background-image:url("kanji.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#eight:hover{
+background-image:url("eighteen.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#nine:hover{
+background-image:url("seven.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#ten:hover{
+background-image:url("eight.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#eleven:hover{
+background-image:url("nine.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#twelve:hover{
+background-image:url("seventeen.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#thirteen:hover{
+background-image:url("eleven.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#fourteen:hover{
+background-image:url("twelve.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#fifteen:hover{
+background-image:url("thirteen.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#sixteen:hover{
+background-image:url("fourteen.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#seventeen:hover{
+background-image:url("fifteen.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+#eighteen:hover{
+background-image:url("sixteen.gif");
+background-size: cover;
+background-position: center;
+width: 200px;
+height: 100px;
+}
+
+input[type=button] {
+			width: 4.5em;  height: 4.5em;
+			margin: 0;
+			padding: 0;
+			border-radius:  50px 50px 170px 170px;
+			font-weight: bolder;
+			box-shadow: 3px 3px 2px black;
+			color: yellow;
+			background-color: #D810A1;
+			text-shadow: 4px 2px black;
+		}
+
+			  
