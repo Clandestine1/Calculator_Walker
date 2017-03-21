@@ -1,13 +1,12 @@
 body{
 	width:100%;
-	height: 100%;
 	background-image: url("rise.jpg");
 	position: static;
 	background-position: center;
 	background-size: cover;
 	background-color: gold;
 	background-repeat: no-repeat;
-	margin: 0;
+	margin: 0px auto;
 	padding: 0;
 
 }
@@ -35,43 +34,41 @@ body{
 top: 88%;
 	position: fixed;
 	width: 100%;
-	height: 100%;
 	font-size: 64px;
 	color: #D810A1;
 	font-family: 'Monoton', cursive;
+	 margin: 0px auto;
+	 padding: 0;
 }
 
 
 #tv{
 	width: 100%;
-	height: 100%;
-	margin: 0;
+	margin: 0px auto;
 padding: 0;
 z-index: -1;
 opacity: 0.5;
+position: fixed;
 }
 	
 #jif {
-height: 100%;
 width: 100%;
-bottom: -12%;
+bottom: 6%;
 left: 3%;
 position: fixed;
-margin: 0;
+margin: 0px auto;
 padding: 0;
 opacity: 0.7;
 }
 
 #vita {
-	width:540px; 
-    height: auto;
 	width: 100%;
 	top: 40%;
 	left: 34%;
 	position: fixed;
 	transform: rotate(-10deg);
 	z-index: 1;
-	margin: 0;
+	margin: 0px auto;
 	padding: 0;
   animation-name: move;
     animation-duration: 2s;
@@ -85,8 +82,8 @@ opacity: 0.7;
 #table {
 	bottom: 14%;
 left: 10%;
-position: absolute;
-margin: 0;
+position: fixed;
+margin: 0px auto;
 padding: 0;
    border: 2px solid black;
    background-image: url("baka.jpg");
@@ -245,7 +242,7 @@ height: 100px;
 
 input[type=button] {
 			width: 4.5em;  height: 4.5em;
-			margin: 0;
+			margin:  0px auto;
 			padding: 0;
 			border-radius:  50px 50px 170px 170px;
 			font-weight: bolder;
@@ -254,5 +251,20 @@ input[type=button] {
 			background-color: #D810A1;
 			text-shadow: 4px 2px black;
 		}
+/* TABLET LAYOUT 
+----------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+/* GO TO ONE COLUMN LAYOUT
+----------------------------------------------- */
+@media screen and (max-width: 750px) {
+}
+/* MOBILE LAYOUT (PORTRAIT/320PX) 
+----------------------------------------------- */
+@media only screen and (max-width: 767px) {
+}
+/* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
+----------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
 			  
